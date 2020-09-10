@@ -64,10 +64,20 @@ export default {
    ** https://github.com/nuxt-community/vuetify-module
    */
   vuetify: {
+    treeShake: true,
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
+        light: {
+          primary: '#845ec2',
+          accent: colors.grey.darken3,
+          secondary: '#355691',
+          info: colors.teal.lighten1,
+          warning: colors.amber.base,
+          error: '#ed254e',
+          success: '#008f7a',
+        },
         dark: {
           primary: colors.blue.darken2,
           accent: colors.grey.darken3,
@@ -85,7 +95,8 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {
-    extractCSS: true,
+    extractCSS: false,
     analyze: true,
   },
+  buildDir: 'dist',
 }
