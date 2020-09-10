@@ -12,7 +12,7 @@
         >Muslims Meet Online</v-toolbar-title
       >
       <v-spacer></v-spacer>
-      <v-btn icon large>
+      <!-- <v-btn icon large>
         <v-badge color="error" dot bordered overlap>
           <v-icon color="white">mdi-bell-outline</v-icon>
         </v-badge>
@@ -21,7 +21,7 @@
         <v-badge color="error" dot bordered overlap>
           <v-icon color="white">mdi-message-outline</v-icon>
         </v-badge>
-      </v-btn>
+      </v-btn> -->
       <v-btn class="ml-1" icon large>
         <v-icon color="white">mdi-account</v-icon>
       </v-btn>
