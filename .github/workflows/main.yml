@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '14.x'
       - run: npm ci
-      - run: npm run build
+      - run: npm run generate
       - name: Deploy to Firebase
         uses: lowply/deploy-firebase@v0.0.4
         env:
